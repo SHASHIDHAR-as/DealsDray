@@ -28,7 +28,7 @@ const Registration = () => {
     
     axios.post("http://localhost:4000/auth/register", payload)
       .then((response) => {
-        navigate(`/dashboard/${response.data.id}`);  
+        navigate(`/login`);  
       })
       .catch(() => { 
         alert("Error registering user");
