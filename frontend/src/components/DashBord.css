@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #1f2937;
+    padding: 10px 20px;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-item a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .user-info {
+    font-weight: bold;
+  }
+  
+  .dashboard-content {
+    padding: 20px;
+  }
+  
+  .dashboard-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-content p {
+    font-size: 16px;
+  }
+  
